@@ -1,0 +1,97 @@
+h1 {
+    position: relative;
+    align-content: center;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    position: relative;
+    align-content: center;
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  position: relative;
+  align-content: center;
+  color: black;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+.image-container0{
+  position: relative
+}
+
+.image-container {
+    position: relative;
+  }
+  
+  .image-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .image-container2 {
+    position: relative;
+  }
+  
+  .image-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .image-container3 {
+    position: relative;
+  }
+  
+  .image-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+p {
+  align-content: center;
+    color: black;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 400px)
+{
+    h1{
+      position: relative;
+      align-self: center;
+    }
+    h2{
+      position: relative;
+      align-self: center;
+    }
+    h3{
+      position: relative;
+      align-self: center;
+    }
+    p{
+      position: relative;
+      align-self: center;
+    }
+}
